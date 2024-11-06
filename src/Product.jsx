@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react'
-import ProductCard from './ProductCard';
+// import ProductCard from './ProductCard';
 
 const Product = () => {
   const [products, setProducts] = useState([]);
+  
 
   async function fetchProduct(){
     

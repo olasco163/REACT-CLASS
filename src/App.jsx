@@ -1,7 +1,9 @@
 import React from 'react'
 import "./App.css";
 import { useState, useEffect } from 'react';
-import Product from './Product';
+// import Product from './Product';
+import FetchProduct from './fetchProduct';
+
 
 
 const users = [
@@ -52,7 +54,8 @@ const App = () => {
       <button
         onClick={() => setIndex(3)}
       >Olaoluwa</button> */}
-      <Product />
+      {/* <Product /> */}
+      <FetchProduct  />
     </div>
   )
 }
